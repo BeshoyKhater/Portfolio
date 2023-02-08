@@ -1,0 +1,32 @@
+#Contact {
+    .socials__contact {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        a {
+            background: $color-primary;
+            padding: 1.3rem;
+            font-size: 22px;
+            border-radius: $border-radius-2;
+            border: 1px solid transparent;
+            
+
+            &:hover {
+                background:$color-light;
+                border-color: $color-primary;
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+/* MEDIA QUERIES (PHONE) */
+@media screen and (max-width:600px) {
+    #Contact {
+            .socials__contact {
+                a {
+                    padding: .9rem;
+                }
+            }
+        }
+}

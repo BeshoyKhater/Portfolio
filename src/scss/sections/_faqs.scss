@@ -1,0 +1,29 @@
+.faqs__container {
+    align-items: flex-start;
+
+    .faq {
+        cursor: pointer;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h5 {
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            .faqs__button {
+                font-size: 1.5rem;
+                transition: $transition;
+                background: transparent;
+            }
+        }
+
+        p {
+            color: $color-dark;
+            margin-top: 0.8rem;
+        }
+    }
+}

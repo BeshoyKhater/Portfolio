@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scroll-behavior",
+          "width: fit-content",
+          "aspect-ratio",
+          "height: fit-content",
+          "margin-inline",
+          "position: sticky"
+        ]
+      }
+    ]
+  }
+}

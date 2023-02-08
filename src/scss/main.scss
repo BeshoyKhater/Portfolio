@@ -1,0 +1,30 @@
+// abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// base
+@import './base/reset';
+@import "./base/typography";
+
+//components 
+@import "./components/navbar";
+@import "./components/cards";
+
+// sections
+@import "./sections/about";
+@import "./sections/contact";
+@import "./sections/faqs";
+@import "./sections/floating-nav";
+@import "./sections/footer";
+@import "./sections/header";
+@import "./sections/portfolio";
+@import "./sections/services";
+@import "./sections/testimonials";
+
+
+//SWIPER
+@import "swiper/css";
+@import "swiper/css/pagination";
+
+//themes
+@import "themes/theme";
