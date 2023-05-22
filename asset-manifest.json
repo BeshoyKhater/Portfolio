@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8df973e5.css",
+    "main.js": "/Portfolio/static/js/main.96f34610.js",
+    "static/media/header1.jpg": "/Portfolio/static/media/header1.0938c3dd356bdc17bfaf.jpg",
+    "static/media/about1.jpg": "/Portfolio/static/media/about1.95a860815e32ce7ba671.jpg",
+    "static/media/course6.jpg": "/Portfolio/static/media/course6.9fa3a577e55366d25bd8.jpg",
+    "static/media/course4.jpg": "/Portfolio/static/media/course4.90bbbffcef8a54585774.jpg",
+    "static/media/course1.jpg": "/Portfolio/static/media/course1.5c3ae8c111fd768f266b.jpg",
+    "static/media/course2.jpg": "/Portfolio/static/media/course2.f903604cf16193b7c5dd.jpg",
+    "static/media/course7.jpg": "/Portfolio/static/media/course7.5fb26a38e1134e4f7892.jpg",
+    "static/media/course3.jpg": "/Portfolio/static/media/course3.7776f861d3cc26cf8264.jpg",
+    "static/media/course9.jpg": "/Portfolio/static/media/course9.fb3e2d6be5d9aac5ef66.jpg",
+    "static/media/course8.jpg": "/Portfolio/static/media/course8.8f7b7360f5e08739631c.jpg",
+    "static/media/course5.jpg": "/Portfolio/static/media/course5.ce30034f0863140ab880.jpg",
+    "static/media/avatar5.jpg": "/Portfolio/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
+    "static/media/logo.jpg": "/Portfolio/static/media/logo.ce63ba75f4177d9803fc.jpg",
+    "static/media/avatar6.jpg": "/Portfolio/static/media/avatar6.8fbcd9d41881b442663e.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.8df973e5.css.map": "/Portfolio/static/css/main.8df973e5.css.map",
+    "main.96f34610.js.map": "/Portfolio/static/js/main.96f34610.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8df973e5.css",
+    "static/js/main.96f34610.js"
+  ]
+}
