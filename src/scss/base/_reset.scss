@@ -1,0 +1,153 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none ;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+}
+
+.container {
+    width: $container-width-lg;
+    margin-inline: auto;
+    max-width: 1920px;
+}
+
+section  {
+    padding: 10rem 0;
+    transition: $transition;
+    background: $color-light;
+
+    &:nth-child(even) {
+        background: $color-white;
+    }
+
+    &>h2 {
+        text-align: center;
+    }
+
+    &>p {
+        text-align: center;
+        margin: 0.5rem auto 4rem;
+        width: 40%;
+    }
+}
+
+a {
+    color: white;
+    transition: $transition;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+    }
+}
+
+// GENERAL HEADING STYLE
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.1;
+    color: $color-black;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 0.95rem;
+}
+
+h6 {
+    font-size:0.8rem;
+}
+
+// GENERAL images STYLE
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Btn {
+    @include Btn;
+}
+
+/* MEDIA QUERIES (TABLETS) */
+@media screen and (max-width:1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    // .container {
+    //     width: $container-width-md;
+    // }
+
+    section {
+        padding: 8rem 0;
+
+        &>p {
+            width: 72%;
+            margin-bottom: 3rem;
+        }
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+/* MEDIA QUERIES (PHONE) */
+@media screen and (max-width:600px) {
+    h1 {
+    font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .Btn {
+        padding: 0.6rem 1.5rem;
+    }
+
+    section > p {
+        width: $container-width-md;
+    }
+}
+

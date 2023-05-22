@@ -1,0 +1,33 @@
+.cards {
+    background: $color-white;
+    padding: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: $border-radius-1;
+    transition: $transition;
+
+    &:hover {
+        background: transparent;
+        border-color: $color-white;
+        transform: translateY(0.5rem);
+    }
+
+    &.light {
+        background: $color-light;
+
+        &:hover {
+            background: transparent;
+            border-color: $color-light;
+        }
+
+        &:hover svg {
+            color: $color-primary;
+        }
+    }
+}
+
+/* MEDIA QUERIES (PHONE) */
+@media screen and (max-width:600px) {
+    .cards {
+        padding: 1.2rem;
+    }
+}

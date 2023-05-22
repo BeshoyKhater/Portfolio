@@ -1,0 +1,47 @@
+@mixin Btn {
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: $color-light;
+    color: $color-black;
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: $border-radius-2;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover {
+        background: transparent;
+        border-color: $color-light;
+        transform: translateY(-0.5rem);
+    }
+
+    &:hover svg {
+        color: $color-primary;
+    }
+
+    &.white {
+        background: $color-white;
+
+        &:hover {
+            border-color: $color-white;
+        }
+    }
+
+    &.primary {
+        background: $color-primary;
+        color: white;
+
+        &:hover {
+            background: transparent;
+            border-color: $color-primary;
+            color: $color-primary;
+        }
+    }
+
+    &.sm {
+        padding: 0.5rem 1rem;
+    }
+}

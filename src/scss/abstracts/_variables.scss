@@ -1,0 +1,28 @@
+:root{
+    --main-color:#690cc6;
+    --white-color:white;
+    --light-color:#f0eff0;
+    --black-color:#262428;
+    --dark-color:#706b76;
+    --background:"light-theme"
+}
+$color-primary:var(--main-color);
+$color-white:var(--white-color);
+$color-light:var(--light-color);
+$color-black:var(--black-color);
+$color-dark:var(--dark-color);
+
+$theme-black:#000000;
+$theme-black-light:#0e0d0d;
+
+// GENERAL CONTAINER VARIABLES
+$container-width-lg:82%;
+$container-width-md:92%;
+
+// BORDER RADIUS VARIABLES
+$border-radius-1:1.2rem;
+$border-radius-2:0.8rem;
+$border-radius-3:0.5rem;
+
+// GENERAL TRANSITION VARIABLES
+$transition:all 500ms ease ;
